@@ -24,7 +24,7 @@ if (Dolphinsscore >= min && Dolphinsscore > Koalasscore) {
 
 console.log("BONUS 2")
 const DolphinsScore = (97+112+101)/3
-const KoalasScore = (109+95+123)/3
+const KoalasScore = (109+95+106)/3
 if (DolphinsScore == KoalasScore && DolphinsScore >= min && KoalasScore >= min) {
     console.log("Draw")
 } else {

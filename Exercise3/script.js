@@ -10,16 +10,22 @@ if (dolphinsscore > koalasscore) {
     console.log("Draw")
 }
 
+console.log("BONUS 1")
+const Dolphinsscore = (97+112+101)/3
+const Koalasscore = (109+95+123)/3
 const min = 100
-if (dolphinsscore >= min && dolphinsscore > koalasscore) {
+if (Dolphinsscore >= min && Dolphinsscore > Koalasscore) {
     console.log("Dolphin wins")
-} else if (koalasscore >= min && dolphinsscore < koalasscore) {
+} else if (Koalasscore >= min && Dolphinsscore < Koalasscore) {
     console.log("Koala wins")
 } else {
     console.log("Draw")
 }
 
-if (dolphinsscore == koalasscore && dolphinsscore >= min && koalasscore >= min) {
+console.log("BONUS 2")
+const DolphinsScore = (97+112+101)/3
+const KoalasScore = (109+95+123)/3
+if (DolphinsScore == KoalasScore && DolphinsScore >= min && KoalasScore >= min) {
     console.log("Draw")
 } else {
     console.log("No team wins the trophy")

@@ -1,0 +1,15 @@
+.primary {
+    background-color: burlywood;
+}
+
+.danger{
+    background-color: red;
+}
+
+.success{
+    background-color: green;
+}
+
+.btn:hover {
+    filter: brightness(0.85);
+}

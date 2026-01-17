@@ -1,22 +1,19 @@
 .box {
-  height: 100vh;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* desktop */
+  gap: 16px;
 }
 
-.common-btn {
-  margin: 10px;
-  background-color: transparent;
-  border: 1px solid red;
-  padding: 10px;
-  border-radius: 5px; 
-  cursor: pointer; 
+/* Tablet */
+@media (max-width: 768px) {
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-.common-btn:hover {
-  background-color: red;
-  color: white;
-  transition: .5s
+/* Mobile */
+@media (max-width: 480px) {
+  .box {
+    grid-template-columns: 1fr;
+  }
 }

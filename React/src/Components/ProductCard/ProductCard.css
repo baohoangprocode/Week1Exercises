@@ -1,0 +1,28 @@
+.pc-box {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 8px 5px 2px gray;
+  background-color: wheat;
+}
+
+
+.pc-img-box {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.pc-img {
+  width: 100%;
+  height: 300px;
+}
+
+.pc-name {
+  color: black;
+}
+
+.pc-price {
+  color: red;
+}

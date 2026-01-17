@@ -12,7 +12,7 @@
   border: 1px solid red;
   padding: 10px;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .common-btn:hover {

@@ -1,0 +1,46 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
+}
+
+.card-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.card-price {
+  margin: 0;
+  font-weight: 600;
+}
+
+.card-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+  background: #4c7dff;
+  color: #fff;
+  transition: all 0.25s ease;
+}
+
+.card-btn:hover {
+  background: #3a68e6;
+}

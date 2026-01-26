@@ -1,0 +1,69 @@
+/* Nền + căn giữa */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* ngang */
+  align-items: center;     /* dọc */
+  background: #f5f6fa;
+  padding: 20px;
+}
+
+/* Khung form */
+.login-card {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.login-title {
+  margin: 0 0 18px;
+  text-align: center;
+}
+
+/* Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.label {
+  font-size: 14px;
+  color: #444;
+}
+
+/* Input + focus effect */
+.input {
+  padding: 10px 12px;
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input:focus {
+  border-color: #4c7dff;
+  box-shadow: 0 0 0 4px rgba(76, 125, 255, 0.15);
+}
+
+/* Button full width */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #4c7dff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.login-btn:hover {
+  background: #3a68e6;
+  transform: translateY(-1px);
+}
